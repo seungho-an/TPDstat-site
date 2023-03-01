@@ -20,7 +20,7 @@ Here is a list of milestones that we will have to keep you on track:
 
 ### Finding a data source 
 
-The biggest part of the final project in Gov 50 is finding a data source. Here are some other resources and repositories with data sets:
+The biggest part of the final project is finding a data source. If you want to utilize data from TPD, feel free to do so; I would be happy to help `tidying` up the data and analyzing those! You may also find **more cleaned** data from some other resources. Here are examples:
 
 - [List of links to political science data sets](https://github.com/erikgahner/PolData) 
 - [Harvard Dataverse - Social Science](https://dataverse.harvard.edu/dataverse/harvard?q=&fq0=subject_ss%3A%22Social+Sciences%22&types=dataverses%3Adatasets&sort=dateSort&order=desc)
@@ -28,7 +28,7 @@ The biggest part of the final project in Gov 50 is finding a data source. Here a
 - [Data published by FiveThirtyEight](https://data.fivethirtyeight.com/) 
 - [Pew Research Center Data Sets](https://www.pewresearch.org/download-datasets/)
 
-If you find a data set that you think is interesting, but you have problems loading the data set into R, I am happy to help you loading the data. R can certainly load almost any data.
+If you find a data set that you think is interesting, but you have problems loading the data set into R, I am happy to help you loading the data. R can certainly load almost any data. 
 
 ### General advice for choosing data sources
 

@@ -9,6 +9,7 @@ project:
 website:
   title: "TPDstat"
   favicon: "files/img/TPD-icon.png"
+  search: false
   navbar:
     pinned: true
     background: "#3498db"
@@ -91,6 +92,5 @@ format:
 
 execute:
   freeze: auto
-
 
 
