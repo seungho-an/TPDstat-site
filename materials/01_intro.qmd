@@ -12,8 +12,8 @@ date: 2023-03-01
 
 ## Slides
 
-<!-- - [PDF of slides as I present them](/slides/01_intro.pdf) -->
-<!-- - [PDF of handout version of slides](/slides/01_intro_handout.pdf) (no incremental slides) -->
+- [PDF of slides as I present them](/slides/01_intro.pdf)
+- [PDF of handout version of slides](/slides/01_intro_handout.pdf) (no incremental slides)
  
 <!-- Below is from the data vis week -->
 <!-- ## Slides and Code -->
