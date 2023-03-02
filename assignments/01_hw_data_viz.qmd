@@ -40,7 +40,7 @@ Let's investigate how life expectancy varies across the continents. Using `ggplo
 
 ![](figures/life_exp_boxplot.png)
 
-These are boxplots of the distribution of life expectancy in each continent. Please make sure that you include the labels as shown in this figure. For the autograder to be able to process your plot, you should assign your the output of your `ggplot` call to `plot_q2` and then evaluate `plot_q2` to ensure that the plot is produced in the output. That is, your code should look like this:
+These are boxplots of the distribution of life expectancy in each continent. Please make sure that you include the labels as shown in this figure. Your code should look like this:
 
 ```{r}
 #| eval: false

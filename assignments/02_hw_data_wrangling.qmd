@@ -1,5 +1,5 @@
 ---
-title: "Problem Set 3: Data Wrangling"
+title: "Problem Set 2: Data Wrangling"
 
 ---
 
@@ -32,7 +32,7 @@ Political advertising has traditionally been focused on the medium of television
 
 Load the data using the `read_csv` function and save it as `fb_ads` (using this will automatically make `fb_ads` a tibble). In the text, describe how many candidates there are in the dataset. 
 
-Use `dplyr` functions to create a table with the number of candidates in each type of office in the data set. Save this table output as `office_table` (for the autograder). Use the function `knitr::kable()` on this table to have a nicely formatted table produced in the knitted output. 
+Use `dplyr` functions to create a table with the number of candidates in each type of office in the data set. Use the function `knitr::kable()` on this table to have a nicely formatted table produced in the knitted output. 
 
 
 ## Question 2
@@ -62,7 +62,7 @@ Let's now recreate the following plot that shows the top 20 Senate candidates in
 
 ![](figures/senate-spenders.png){width="50%"}
 
-You should save the `ggplot` output as `fb_top_plot`. The key features of this graph that you should replicate for the autograder are:
+You should save the `ggplot` output as `fb_top_plot`. 
 
 - The barplot should have candidate last names on the y-axis and the `spend_millions` variable from question 3 on the x-axis. 
 - The data feeding into the `ggplot` call should only have US Senate candidates and only the candidates with the highest 20 `spend_millions` values. 
