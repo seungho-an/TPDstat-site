@@ -32,7 +32,7 @@ For the purposed of this exercise, we will treat this data as the population of 
 
 \newpage
 
-## Question 1 (7 points)
+## Question 1 
 
 Load the voter list data into R using `read_csv` and save the data as `fulton`. 
 
@@ -41,7 +41,7 @@ Create a density histogram of age with a bin width of 1 and save this plot as `a
 In the write-up, state how many units are in the population (that is, how many rows are in the `fulton` data). 
 
 
-## Question 2 (5 points)
+## Question 2 
 
 Use `summarize()` to calculate the population mean and standard deviation of `age` and `turnout` (that is the mean and SD of these variables in the `fulton` data) and save the resulting tibble as `pop_parameters` with the tibble output looking like:
 
@@ -52,11 +52,10 @@ Use `summarize()` to calculate the population mean and standard deviation of `ag
 1         XX.X       XX.X            X.XXX          X.XXX
 ```
 
-Make sure that the column names are the same for the autograder. (**Hint:** you can summarize multiple variables in the same call to `summarize`.) Use `knitr::kable()` to present the values in nicely formatted table with `digits = 2` to create nicely rounded numbers and informative column names (they may need to be abbreviated to fit on the page). 
+Make sure that the column names are the same (**Hint:** you can summarize multiple variables in the same call to `summarize`). Use `knitr::kable()` to present the values in nicely formatted table with `digits = 2` to create nicely rounded numbers and informative column names (they may need to be abbreviated to fit on the page). 
 
- **Rubric:** 4pts for correct `pop_parameters` tibble (autograder); 1pts for nicely formatted table (PDF). 
 
-## Question 3 (8 points)
+## Question 3 
 
 
 In the first line of the code chunk for this question use the following code:
@@ -74,7 +73,7 @@ Create a density histogram of the age means and with a bin width of 1 and save t
 In the write-up, compare the sampling distribution of the sample mean and sample proportion here to the population distributions from question 1. Are the shapes of the sampling distributions similar or different to the population distributions? If different, how are they different? 
 
 
-## Question 4 (7 points)
+## Question 4 
 
 
 Use the `summarize()` function on `samples_n20` to calculate the average (named `ev_age` and `ev_turnout`) and standard deviation (named `se_age` and `se_turnout`) of each sample mean/proportion across the repeated samples. Save this tibble as `samp_dist_summary` and it should look like this: 
@@ -85,10 +84,11 @@ Use the `summarize()` function on `samples_n20` to calculate the average (named 
 1   X.XX   X.XX      X.XXX      X.XXX
 ```
 
-Make sure that the column names are the same for the autograder. Use `knitr::kable()` to present the values in nicely formatted table with `digits = 2` to create nicely rounded numbers. 
+Make sure that the column names are the same. Use `knitr::kable()` to present the values in nicely formatted table with `digits = 2` to create nicely rounded numbers. 
 
-Compare the mean and SD of these sampling distributions to the population means and SDs from the previous question. Are these distributions centered on the same value? Which has more spread, the population distribution of age/turnout or the sampling distributions of their means? 
-## Question 5 (3 points)
+Compare the mean and SD of these sampling distributions to the population means and SDs from the previous question. Are these distributions centered on the same value? Which has more spread, the population distribution of age/turnout or the sampling distributions of their means?
+
+## Question 5 
 
 The central limit theorem says that sums and means tend to be normally distributed so that 68% of the sampling distribution of the mean should be  within 1 standard deviation of the expected value of the expected value. Let's see if this if this approximation is good for our sampling distributions. 
 
@@ -106,7 +106,7 @@ mydata |>
 Report this proportion in the main text and comment on whether it is similar to what the CLT would predict. 
 
 
-## Question 6 (5 points)
+## Question 6 
 
 In this question you will repeat the exercise from question 4, using `turnout_prop` instead. 
 

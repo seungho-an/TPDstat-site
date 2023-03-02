@@ -50,7 +50,7 @@ The dataset `judges.csv` contains the following variables about individual judge
  -------------------------------------------------------------------------------------------
 
 
-## Question 1 (10 points)
+## Question 1 
 
 Load the `tidyverse` package in the setup chunk. In the first chunk for this question use `read_csv` to load the `data/judges.csv` file into a data frame called `judges`. In this exercise, you will create a cross-tab that shows the gender breakdown within each party. In particular, the result should be a table with 2 rows and 3 columns, where the rows represent each gender and the columns correspond to party. In the end, you should have a table that looks like this (with the correct proportion, not these made up ones):
 
@@ -73,26 +73,26 @@ In your write-up, answer the following questions:
 - From your table, is the gender breakdown different for judges appointed by Democratic vs Republican presidents?
 
 
-## Question 2 (7 points)
+## Question 2 
 
 Use `group_by` and `summarize` to calculate the mean of `progressive_vote` in each combination of the `Gender` and `Party` variables you created in question 1 and save this tibble as `gender_party_means` (this tibble should have columns `Gender`, `Party`, and `progressive_vote`). Use this table to recreate the following barplot:
 
 ![](figures/gender_party_plot.png)
 
-The autograder will check the aesthetic mappings, the correct placement of the bars, and the labels, but you do not need to match the exact colors (they are `"steeblue1"` and `"indianred1"` if you do want to match, though).
+The exact colors used in the graph are `"steeblue1"` and `"indianred1"` if you do want to match, though.
 
 In the main text, briefly interpret the results of the analysis by describing which party and which gender tend to be more progress. Comment on whether there are larger differences across party or across gender in terms of progressive voting. Should we interpret any of these effects causally? Why or why not?
 
 
 
-## Question 3 (9 points)
+## Question 3 
 
 What is the difference in the proportion of pro-feminist decisions between judges who have at least one daughter and those who do not have any? To compute this difference, first create a variable called `any_girls` that is `"Any Girls"` when the judge has at least 1 girl and `"No Girls"` otherwise and save this variable back to the `judges` tibble. Then, created a new tibble called `parents` that is filtered to contain judges that have at least one child. Create an object called `vote_by_girls` that has three columns: the unique values of the `any_girls` variable, the mean of the `progressive_vote` variable for each value of `any_girls` (column called `progressive_mean`), and the standard deviation of `progressive_vote` for each value of `any_girls` (column called `progressive_sd`). Present the table using `knitr::kable()`. 
 
 In the main text, describe which group has a higher average progressive vote and which group's distribution has more spread. Why might we worry about interpreting any difference in means causally, considering number of children as a possible confounder?
 
 
-## Question 4 (9 points)
+## Question 4 
 
 Given that the number of children might be a confounder for the relationship between number of girls and voting, let's estimate the average treatment effects of having girls using statistical control for the number of children among judges that have one to three children (that is, first filter to judges that only have between 1 and 3 children, inclusive). Your final table should be called `ate_nkids` and should be a tibble that has two columns: one with the number of children (1, 2, and 3) and the other with the estimated ATEs of `any_girls` for each of those levels. Print out this table using the `knitr::kable()` command.
 

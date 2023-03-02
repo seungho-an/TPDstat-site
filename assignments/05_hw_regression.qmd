@@ -44,21 +44,20 @@ Fraga analyzes turnout data for four different racial and ethnic groups, but for
 
 In the write up, indicate which years are included in the dataset and how many different states are included in the dataset. 
 
- **Rubric:** 1pt for Rmd file compiling (autograder); 1pt for loading data (autograder); 1pt for indicating years in the data and  number of states (PDF).
 
 
-## Question 2 (7 points)
+## Question 2 
 
 Create a boxplot that compares Black turnout in elections with and without a co-ethnic candidate and save the plot as `turnout_box`. Your plot should look like this:
 
 ![](figures/turnout_box.png)
 
-To create the x-axis variable that is nicely labeled, use `mutate()` to create a variable that is `"Yes"` when `candidate` is 1 and `"No"` otherwise (it does not matter what this variable is called to the autograder, but don't overwrite your `candidate` variable!). Be sure to use informative labels, though they do not have to match the text exactly. 
+To create the x-axis variable that is nicely labeled, use `mutate()` to create a variable that is `"Yes"` when `candidate` is 1 and `"No"` otherwise (while doing so, be careful not to overwrite your `candidate` variable!). Be sure to use informative labels, though they do not have to match the text exactly. 
 
 In the write-up, report what the plot tells us about how turnout varies by the presence of a co-ethnic candidate.
 
 
-## Question 3 (7 points)
+## Question 3 
  
 Run a linear regression with Black voter turnout as your outcome variable and candidate co-ethnicity as your predictor. Save this regression as `fit_1` and report the coefficients using a nicely formatted table with the following code (you may need to install the `broom` package to have this work):
 
@@ -73,7 +72,7 @@ fit_1 |>
 Interpret both of these coefficients. Do not merely comment on the direction of the association (i.e., whether the slope is positive or negative). Explain what the value of the coefficients mean in terms of the units in which each variable is measured.  Are these results consistent with the prediction that Black voters turn out at higher rates when a co-ethnic candidate is running?
 
 
-## Question 4 (7 points)
+## Question 4 
 
 You decide to investigate the results of the previous question a bit more carefully because the elections with co-ethnic candidates may differ from the elections without co-ethnic candidates in other ways.  Create a scatter plot where the x-axis is the proportion of voting-age population that is Black and the y-axis is Black voter turnout. Color your points according to candidate co-ethnicity. That is, make the points for elections featuring co-ethnic candidates one color, and make the points for elections featuring no co-ethnic candidates a different color. You plot should look like this:
 
@@ -85,7 +84,7 @@ You should save this plot as `turnout_scatter` and to create better labels for t
 Answer these questions in the write-up: What does this graph seem to imply about the relationship between Black voting-age population and Black turnout? What does it tell us about the relationship between Black voting-age population and the presence of a Black candidate?
 
 
-## Question 5 (6 points)
+## Question 5 
 
 Run a linear regression with Black turnout as your outcome variable and with candidate co-ethnicity and co-ethnic voting-age population as your predictors. Save the output of this regression as `fit_2` and report the coefficients using a nicely formatted table with the following code (you may need to install the `broom` package to have this work):
 
@@ -99,12 +98,12 @@ fit_2 |>
 In the main text, interpret the coefficients on the two predictors, ignoring the intercept for now (you will interpret the intercept in the next question). Explain what each coefficient represents in terms of the units of the relevant variables.
 
 
-## Question 6 (2 points)
+## Question 6 
 
 Now interpret the intercept from the regression model with two predictors. Is this intercept a substantively important or interesting quantity?  Why or why not? 
 
 
-## Question 7 (3 points)
+## Question 7 
 
 Comparing the two regression models you have fit, what do you conclude about the relationship between co-ethnic candidates and Black voter turnout? Do they come to similar or different conclusions about this relationship? Which model do  you prefer and why?  (Please ignore issues of statistical significance for this question given that it will be covered later in the course.)
 

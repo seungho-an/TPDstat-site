@@ -45,10 +45,10 @@ Use `knitr::kable()` to produce a nicely formatted table. In this call, set the 
 knitr::kable(my_table, col.names = c("Variable 1", "Variable 2", ...))
 ```
 
-In the writeup, describe which type of candidate sponsored the most attack ads on average. 
+In the write up, describe which type of candidate sponsored the most attack ads on average. 
 
 
-## Question 3 (7 points)
+## Question 3
 
 
 Create a new variable called `spend_millions` that is the amount of money the candidate spent on Facebook ads in millions of dollars (as opposed to dollars). Make sure to save the resulting dataset back as `fb_ads`.
@@ -56,7 +56,7 @@ Create a new variable called `spend_millions` that is the amount of money the ca
 Create a histogram of this variable for just the US Senate races. Save the ggplot output as `plot_q3` and also print it to produce a plot in the output. In the text, describe the shape of the histogram and tell the reader if most of the Senate candidates spent more or less than a million dollars on Facebook ads. 
 
 
-## Question 4 (13 points)
+## Question 4 
 
 Let's now recreate the following plot that shows the top 20 Senate candidates in terms of Facebook ad spending. 
 

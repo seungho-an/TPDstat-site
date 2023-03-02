@@ -111,7 +111,7 @@ In the first step of building `ate_college`, you should pipe the data to a `muta
 Pass the table to `knitr::kable()` to produce a nicely formatted table. Report the ATEs in text and comment on whether or not you see evidence of a differential effect of treatment.
 
 
-## Question 6 (10 points)
+## Question 6 
 
 Repeat the same analysis as in the previous question but this time with respect to age. For age, use `case_when` and logical vectors to create a new variable `age_group` that has the following values:
 
