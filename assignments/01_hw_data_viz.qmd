@@ -5,10 +5,6 @@ due_date: 2023-03-08
 ---
 
 
-<!-- You can find instructions for obtaining and submitting problem sets [here](/assignments/problem-sets.qmd). -->
-
-<!-- You can find the GitHub Classroom link to download the template repository on the [Ed Board](https://edstem.org/us/courses/24957/resources) -->
-
 ## Background
 
 In this problem set, you will get your bearings on how to produce an Rmarkdown report and how to produce data visualizations using `ggplot`. The data we will use is the Gapminder dataset, which gives some economic and demographic information about countries over time. The variables in this data are described below. 
@@ -25,7 +21,7 @@ In this problem set, you will get your bearings on how to produce an Rmarkdown r
 | `gdpPercap` | GDP per capita (US dollars, inflation-adjusted)                         |
 |             |                                                                         |
 
- <!-- **NOTE**: In the template you'll get from GitHub Classroom, the default settings for chunks is to only show the output of the chunk, not the code that generated it (`echo = FALSE`). This is to give your answers a clean look and to highlight the output rather than the source coe. The template also has a part that will dump all of the R code at the end so that we can look at it if needed.  -->
+ **NOTE**: In this template, the default settings for chunks is to show both R codes and the output of the chunks (`echo = TRUE`); if you do not want to show the R codes, you can change it to `echo = FALSE`, which can generate a clean look and highlight the output rather than the source code. However, for the purpose of grading (or evaluation), let's keep the current option as it is. 
 
 
 ## Question 1 
@@ -56,13 +52,11 @@ plot_q2
 
 <!-- plot_q2 -->
 
-  <!-- **Rubric**: 10 autograder points.  -->
 
 ## Question 3 
 
 Looking at the previous plot, which continent has the highest median life expectancy? Which part of the boxplot can we determine this from?
 
- <!-- **Rubric**: 5 write up points (2 for identifying the correct continent, 3 for correctly identifying how to find this on the boxplot) -->
 <!-- Oceania, the black cross line in the box -->
 
 ## Question 4 
