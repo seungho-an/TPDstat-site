@@ -17,8 +17,8 @@ remotes::install_github("seungho-an/TPDdata")
 ```
 ## Slides
 
-- [PDF of slides as I present them](/slides/02_data_wrangling.pdf)
-- [PDF of handout version of slides](/slides/02_data_wrangling_handout.pdf) (no incremental slides)
+- [PDF of slides as I present them](/slides/02-data-wrangling.pdf)
+- [PDF of handout version of slides](/slides/02-data-wrangling_handout.pdf) (no incremental slides)
 - Code: [`news.Rmd`](/files/code/news.Rmd)
 <!-- ## Slides and Code -->
 
