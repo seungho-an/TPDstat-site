@@ -6,6 +6,10 @@ due_date: 2023-03-17
 
 Note: The due is extended to March 17th since the assignment is posted a day late.
 
+Download the data below for this exercise! 
+
+- [Data: registered EVs in WA](/files/data/evinwa.csv) 
+
 ## Background
 
 Automobile manufacturers are transitioning into producing more Electric Vehicles (EVs). EU lawmakers even passed a law that bans the sale of new petrol and diesel cars in the European Union from 2035 to speed up the switch to EVs. EVs are becoming more popular, and more EVs options are available nowadays. 
