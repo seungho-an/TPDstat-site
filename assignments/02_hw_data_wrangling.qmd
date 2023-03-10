@@ -1,74 +1,61 @@
 ---
 title: "Problem Set 2: Data Wrangling"
+due_date: 2023-03-17
 
 ---
 
+Note: The due is extended to March 17th since the assignment is posted a day late.
 
 ## Background
 
-Political advertising has traditionally been focused on the medium of television, but in recent cycles, online advertising has become much more popular. In this problem set, you will explore a dataset that has information on Facebook ad spending by candidates in the 2018 election cycle in the United States. The variables in this data are described below. 
+Automobile manufacturers are transitioning into producing more Electric Vehicles (EVs). EU lawmakers even passed a law that bans the sale of new petrol and diesel cars in the European Union from 2035 to speed up the switch to EVs. EVs are becoming more popular, and more EVs options are available nowadays. 
 
-
+In this problem set, you will explore a dataset that has information on EV car registration in Washington state from 2011 to 2023. The variables in this data are described below. 
 
 | Name               | Description                                                          |
 |:-------------------|:---------------------------------------------------------------------|
-| `cand_id`          | unique identifier code for candidate                                 |
-| `cand_name`        | full name of the candidate                                           |
-| `cand_name_last`   | last name of the candidate                                           |
-| `party`            | party affiliation of the candidate (R = Republican, D = Democrat)    |
-| `office`           | office being sought by candidate                                     |
-| `state`            | state in which the candidate is running                              |
-| `incumbency`       | incumbency status of candidate (incumbent, challenger, or open seat) |
-| `spend`            | estimated total spending on Facebook ads by candidate                |
-| `impressions`      | estimated total impressions of Facebook ads                          |
-| `ad_tone_attack`   | proportion of FB ads that mention candidate's opponent only          |
-| `ad_tone_promote`  | proportion of FB ads that mention candidate only                     |
-| `ad_tone_contrast` | proportion of FB ads that mention candidate and candidate's opponent |
+| `vin`              | VIN number                                                           |
+| `county`           | county name                                                          |
+| `city`             | city name                                                            |
+| `postalcode`       | Postal code                                                          |
+| `modelyear`        | Year where the car is intended to be launched                        |
+| `make`             | Car manufacturer                                                     |
+| `model`            | Car model                                                            |
+| `evtype`           | EV car type (EV or hybrid)                                           |
+| `range`            | Maximum driving range with full charge                               |
 
 
 
 
 ## Question 1
 
-Load the data using the `read_csv` function and save it as `fb_ads` (using this will automatically make `fb_ads` a tibble). In the text, describe how many candidates there are in the dataset. 
+Load the data using the `read_csv` function (loaded together with the `tidyverse` package) and save it as `ev_wa`; assigning this will make it automatically `tibble`. How many electric vehicles are registered in WA since 2011 (`modelyear`)? 
 
-Use `dplyr` functions to create a table with the number of candidates in each type of office in the data set. Use the function `knitr::kable()` on this table to have a nicely formatted table produced in the knitted output. 
+Also, use `dplyr` functions to create a table with the total number of registered BEVs and PHEVs by model year, and employ the function `knitr::kable()` on this table to have a nicely formatted table produced in the knitted output (also with nice labels). 
 
 
 ## Question 2
 
-Filter the data to just US House and US Senate races and use this to create a tibble called `office_incumbent_attack` that has 6 rows that summarizes the average of `ad_tone_attack` for each combination of `office` and `incumbent`. Call the variable summarizing the attack variable as `attack_prop` and be sure to remove any missing values when computing the averages. 
-
-Use `knitr::kable()` to produce a nicely formatted table. In this call, set the `digits` arguments to 3 and use the `col.names` argument to pass a nicer set of names. You can use the following as a template:
-
-```{r eval = FALSE}
-knitr::kable(my_table, col.names = c("Variable 1", "Variable 2", ...))
-```
-
-In the write up, describe which type of candidate sponsored the most attack ads on average. 
+Create a bar plot to present which county has the highest EV registered numbers over the years. 
 
 
 ## Question 3
 
-
-Create a new variable called `spend_millions` that is the amount of money the candidate spent on Facebook ads in millions of dollars (as opposed to dollars). Make sure to save the resulting dataset back as `fb_ads`.
-
-Create a histogram of this variable for just the US Senate races. Save the ggplot output as `plot_q3` and also print it to produce a plot in the output. In the text, describe the shape of the histogram and tell the reader if most of the Senate candidates spent more or less than a million dollars on Facebook ads. 
+Create a histogram of ranges for `BEVs` that are manufactured after 2017 (`modelyear>2017`) only. Once you create the histogram, in the text, describe the shape of the histogram and tell the reader if most BEVs have ranges greater than 200 miles. Also, which range seems to have the highest count in the histogram looking at the plot? Is the plot skewed to the left or right (or evenly distributed)?  
 
 
-## Question 4 
+## Question 4
 
-Let's now recreate the following plot that shows the top 20 Senate candidates in terms of Facebook ad spending. 
+Now, you are in the BEV market and were wondering which BEV model has the longest range. Create a bar plot using the `ggplot` package that shows the maximum value of the range for each car model. On x-axis and y=axis, it should show the maximum range and  the car model, respectively. The final figure should reorder car models by its range; the highest range car model should appear on top. Furthermore, let's color the bars by automakers (you can pick your own color)!  
 
-![](figures/senate-spenders.png){width="50%"}
 
-You should save the `ggplot` output as `fb_top_plot`. 
 
-- The barplot should have candidate last names on the y-axis and the `spend_millions` variable from question 3 on the x-axis. 
-- The data feeding into the `ggplot` call should only have US Senate candidates and only the candidates with the highest 20 `spend_millions` values. 
-- The y-axis should be ordered in ascending values of `spend_millions` so that the lowest values are at the bottom. You may want to manipulate `cand_name_last` to achieve this. 
-- The fill color of the bar plot should be mapped to the `party` variable (but not globally!). 
+## Question 5 
 
-You do not need to exactly match the labels, but you should have informative labels. The color does not need to match, but if you want to change the fill colors, you can use the `scale_fill_manual(values = c(R = "red", D = "blue"))` function (where you can change the red and blue to whatever you want). 
+We are going to create the difference in the car registration by model year between US and non-US brands. US brands in the dataset are `Tesla`, `Chevrolet`, `Chrysler`, `Cadillac`, and `Ford` (based on my quick Google search). Once you create the new vector, let's create a bar plot to see the trend by model year. What are the trends? Are US brands being registered more and more? 
+
+
+Tips: Once you count the total number of registration for the US brand and non-US brand, you can use `spread()` function from the `tidyr` package; we have not covered the `spread()` function in the class. If you want to follow this route, you can write out as `spread(usauto, n)` (here n is the total number of registration), for example. This can help calculating the difference between US and non-US brand registrations much easier.
+
 
 
