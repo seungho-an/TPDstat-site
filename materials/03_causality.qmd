@@ -20,6 +20,6 @@ remotes::install_github("seungho-an/TPDdata")
 ## Slides and Code
 
 - Causality and observational studies
-  - [PDF of slides as I present them](/slides/03_causality.pdf)
-  - [PDF of handout version of slides](/slides/03_causality_handout.pdf) (no incremental slides)
+  - [PDF of slides as I present them](/slides/03-causality.pdf)
+  - [PDF of handout version of slides](/slides/03-causality_handout.pdf) (no incremental slides)
   - Code: [`transphobia.Rmd`](/files/code/transphobia.Rmd)
