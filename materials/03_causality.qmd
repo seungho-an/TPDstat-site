@@ -10,7 +10,7 @@ date: 2023-03-15
 
 ## Data
 
-- Reinstall the TPDstatdata package if the current package does not have the dataset from the lecture 
+- Reinstall the TPDstat data package if the current package does not have the dataset(s) from the lecture 
 
 ```{r}
 #| eval: false
