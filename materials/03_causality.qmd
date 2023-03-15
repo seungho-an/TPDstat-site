@@ -10,20 +10,16 @@ date: 2023-03-15
 
 ## Data
 
-- Reinstall the TPDstatdata package that has new data for this week:
+- Reinstall the TPDstatdata package if the current package does not have the dataset from the lecture 
+
 ```{r}
 #| eval: false
 remotes::install_github("seungho-an/TPDdata")
 ```
 
-<!-- ## Slides and Code -->
+## Slides and Code
 
-<!-- - Tuesday (9/20) lecture: Causality -->
-<!--   - [PDF of slides as I present them](/slides/06_causality.pdf) -->
-<!--   - [PDF of handout version of slides](/slides/06_causality_handout.pdf) (no incremental slides) -->
-<!--   - Code: [`transphobia.Rmd`](/files/code/transphobia.Rmd) -->
-
-<!-- - Tuesday (9/22) lecture: Observational Studies -->
-<!--   - [PDF of slides as I present them](/slides/07_obs_studies.pdf) -->
-<!--   - [PDF of handout version of slides](/slides/07_obs_studies_handout.pdf) (no incremental slides) -->
-
+- Causality and observational studies
+  - [PDF of slides as I present them](/slides/03_causality.pdf)
+  - [PDF of handout version of slides](/slides/03_causality_handout.pdf) (no incremental slides)
+  - Code: [`transphobia.Rmd`](/files/code/transphobia.Rmd)

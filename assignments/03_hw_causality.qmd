@@ -9,7 +9,7 @@ title: "Problem Set 3: Effect of Demographic Change on Exclusionary Attitudes "
 
 ## Background
 
-Ryan Enos conducted a randomized field experiment assessing the extent to which exposure to demographic change affected the political views of individuals living in suburban communities around Boston, Massachusetts.
+This study conducts a randomized field experiment assessing the extent to which exposure to demographic change affected the political views of individuals living in suburban communities around Boston, Massachusetts.
 
 > This exercise is based on: Enos, R. D. 2014. “[Causal Effect of  Intergroup Contact on Exclusionary Attitudes.](http://dx.doi.org/10.1073/pnas.1317670111)” *Proceedings of the National Academy of Sciences* 111(10): 3699–3704.
 
