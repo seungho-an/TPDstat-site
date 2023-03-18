@@ -8,7 +8,7 @@ Note: The due is extended to March 17th since the assignment is posted a day lat
 
 Download the data below for this exercise! 
 
-- [Data: registered EVs in WA](/files/data/evinwa.csv) 
+- Data: [`evinwa.csv`](/files/data/evinwa.csv) 
 
 ## Background
 

@@ -1,7 +1,7 @@
 {
-  "hash": "728c3f352f8440077c368e00f6f77617",
+  "hash": "51064b9ddbe68df005af1be25ae245d9",
   "result": {
-    "markdown": "---\ntitle: \"Causality, randomized experiments, and observational studies\"\ndate: 2023-03-15\n---\n\n\n\n## Readings \n\n- [Chapter 2 of QSS](https://press.princeton.edu/books/hardcover/9780691222271/quantitative-social-science)\n\n## Data\n\n- Reinstall the TPDstat data package if the current package does not have the dataset(s) from the lecture \n\n\n::: {.cell}\n\n```{.r .cell-code}\nremotes::install_github(\"seungho-an/TPDdata\")\n```\n:::\n\n\n## Slides and Code\n\n- Causality and observational studies\n  - [PDF of slides as I present them](/slides/03-causality.pdf)\n  - [PDF of handout version of slides](/slides/03-causality_handout.pdf) (no incremental slides)\n  - Code: [`transphobia.Rmd`](/files/code/transphobia.Rmd)\n",
+    "markdown": "---\ntitle: \"Causality, randomized experiments, and observational studies\"\ndate: 2023-03-15\n---\n\n\n\n## Readings \n\n- [Chapter 2 of QSS](https://press.princeton.edu/books/hardcover/9780691222271/quantitative-social-science)\n\n## Data\n\n- Reinstall the TPDstat data package if the current package does not have the dataset(s) from the lecture \n\n\n::: {.cell}\n\n```{.r .cell-code}\nremotes::install_github(\"seungho-an/TPDdata\")\n```\n:::\n\n\n## Slides and Code\n\n- Causality and observational studies\n  - [PDF slides](/slides/03-causality.pdf)\n  - [PDF handout version](/slides/03-causality_handout.pdf) (no incremental slides)\n  - Code: [`transphobia.Rmd`](/files/code/transphobia.Rmd)\n",
     "supporting": [
       "03_causality_files"
     ],
