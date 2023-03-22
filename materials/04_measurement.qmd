@@ -1,5 +1,5 @@
 ---
-title: "Measuring and Summarizing Data"
+title: "Summarizing Data and Survey Sampling"
 date: 2023-03-22
 ---
 
@@ -10,7 +10,8 @@ date: 2023-03-22
 
 ## Data
 
-- Reinstall the TPDdata package that has new data for this week:
+- Reinstall the TPDstat data package if the current package does not have the dataset(s) from the lecture 
+
 ```{r}
 #| eval: false
 remotes::install_github("seungho-an/TPDdata")
@@ -18,11 +19,12 @@ remotes::install_github("seungho-an/TPDdata")
 
 ## Slides and Code
 
-<!-- - Tuesday (9/27) lecture: Summarizing data -->
-<!--   - [PDF of slides as I present them](/slides/08_summarizing_data.pdf) -->
-<!--   - [PDF of handout version of slides](/slides/08_summarizing_data_handout.pdf) (no incremental slides) -->
+- Summarizing data and survey sampling
+
+  - [PDF slides](/slides/04_summarizing_data_survey_sampling.pdf)
+  - [PDF handout version](/slides/04_summarizing_data_survey_sampling_handout.pdf) (no incremental slides)
+  - Code: [`cces.Rmd`](/files/code/cces.Rmd)
 
 <!-- - Thursday (9/29) lecture: Survey Sampling -->
 <!--   - [PDF of slides as I present them](/slides/09_survey_sampling.pdf) -->
 <!--   - [PDF of handout version of slides](/slides/09_survey_sampling_handout.pdf) (no incremental slides) -->
-<!--   - Code: [`cces.Rmd`](/files/code/cces.Rmd) -->
