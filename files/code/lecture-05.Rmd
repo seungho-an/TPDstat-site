@@ -1,7 +1,5 @@
 ---
-title: "Lecture 11"
-author: "Matt Blackwell"
-date: '2022-10-06'
+title: "Lecture 5"
 output: pdf_document
 ---
 
@@ -11,7 +9,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r}
 library(tidyverse)
-library(gov50data)
+library(TPDdata)
 mortality
 ```
 

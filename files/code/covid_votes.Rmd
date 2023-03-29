@@ -1,14 +1,12 @@
 ---
 title: "Covid Votes"
-author: "Matt Blackwell"
-date: '2022-10-04'
 output: pdf_document
 ---
 
 
 ```{r}
 library(tidyverse)
-library(gov50data)
+library(TPDdata)
 covid_votes
 ```
 
