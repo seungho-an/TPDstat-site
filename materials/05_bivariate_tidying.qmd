@@ -50,6 +50,6 @@ install.packages("nycflights13")
   - [PDF slides](/slides/05_bivariate_tidying.pdf)
   - [PDF handout version](/slides/05_bivariate_tidying_handout.pdf) (no incremental slides)
   - Code: [`covid_votes.Rmd`](/files/code/covid_votes.Rmd)
-  - Code: [`lecture-11.Rmd`](/files/code/lecture-05.Rmd)
+  - Code: [`lecture-05.Rmd`](/files/code/lecture-05.Rmd)
 
 
