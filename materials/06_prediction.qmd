@@ -39,6 +39,11 @@ install.packages("broom")
 
 ## Slides 
 
+- Prediction, loops, and regression
+
+  - [PDF slides](/slides/06_prediction_regression.pdf)
+  - [PDF handout version](/slides/06_prediction_regression_handout.pdf) (no incremental slides)
+
 <!-- - Tuesday (10/11) lecture: Prediction and loops -->
 <!--   - [PDF of slides as I present them](/slides/12_prediction_loops.pdf) -->
 <!--   - [PDF of handout version of slides](/slides/12_prediction_loops_handout.pdf) (no incremental slides) -->
