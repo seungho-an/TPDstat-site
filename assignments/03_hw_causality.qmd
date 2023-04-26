@@ -23,18 +23,15 @@ To put it simple, Broockman examines whether African American politicians are mo
 
 The names and descriptions of variables in the data set `aa_rep.csv` are:
 
+| Name               | Description                                                                        |
+|:-------------------|:-----------------------------------------------------------------------------------|
+| `response`         | Response from the legislator=1, otherwise=0                                        |
+| `treat_out`        | Residing outside the district (treatment; 1) or within the district (control; 0)   |
+| `leg_race`         | Race of legislator; white=1, black=2, latino=3, native american=4, arab=5, asian=6 |
+| `leg_democrat`     | Partisanship; Democrat=1, otherwise=0                                              |
+| `leg_state`        | State of legislator                                                                |
+| `leg_gen`          | Gender of legislator (female=1; otherwise=0)                                       |
 
--------------------- ----------------------------------------------------------
- Name                 Description
--------------------- ----------------------------------------------------------
- `response`           Response from the legislator=1, otherwise=0
- `treat_out`          Residing outside the district (treatment; 1) or within the district (control; 0)
-
- `leg_race`           Race of legislator; white=1, black=2, latino=3, native american=4, arab=5, asian=6
- `leg_democrat`       Partisanship; Democrat=1, otherwise=0
- `leg_state`          State of legislator  
- `leg_gen`            Gender of legislator (female=1; otherwise=0)
- ------------------------------------------------------------------------------
 
 ## Question 1 
 

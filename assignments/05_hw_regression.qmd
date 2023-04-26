@@ -37,7 +37,7 @@ Name                Description
 
 \newpage
 
-## Question 1 (3 points)
+## Question 1 
 
 Fraga analyzes turnout data for four different racial and ethnic groups, but for this analysis we will focus on the data for Black voters. Load  `data/blackturnout.csv` and save it as `blackturnout`. 
 

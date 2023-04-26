@@ -48,10 +48,10 @@ website:
               file: materials/06_prediction.qmd
             - text: "7: More Regression"
               file: materials/07_regression.qmd
-            - text: "8: Sampling"
-              file: materials/08_sampling.qmd
-            - text: "9: Bootstrap and Confidence Intervals"
-              file: materials/09_bootstrap.qmd
+            - text: "8: Heterogeneous Effects in Regression"
+              file: materials/08_HE_regression.qmd
+            - text: "9: Sampling and Confidence Intervals"
+              file: materials/09_sampling.qmd
             - text: "10: Hypothesis Testing"
               file: materials/10_hyp_tests.qmd
               

@@ -18,17 +18,12 @@ date: 2023-04-12
 remotes::install_github("seungho-an/TPDdata")
 ```
 
-- CSV files for the lab sessions:
-  - [`cct.csv`](/files/data/cct.csv)
-  - [`transphobia_all.csv`](/files/data/transphobia_all.csv)
+<!-- - CSV files for the data from this week if you cannot install the package: -->
+<!--   - [`midterms.csv`](/files/data/midterms.csv) -->
 
-## Slides 
+## Slides and Code
 
-- Model fit and multiple regression
-
-  - [PDF slides](/slides/07_more_regression_TPD.pdf)
-  - [PDF handout version](/slides/07_more_regression_TPD_handout.pdf) (no incremental slides)
-
+<!-- - Tuesday (10/18) lecture: Model fit and multiple regression -->
 <!--   - [PDF of slides as I present them](/slides/14_regression_ii.pdf) -->
 <!--   - [PDF of handout version of slides](/slides/14_regression_ii_handout.pdf) (no incremental slides) -->
 

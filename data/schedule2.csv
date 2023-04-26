@@ -19,17 +19,16 @@ week,date,title, reading,content,tutorial,assignment
 6,4/5/23,Tutorial 6 (Loops),,,/assignments/tutorials,
 6,4/5/23,Regression,MD Ch 5 or QSS 4.2 (except 4.2.5),/materials/06_prediction,,
 7,4/9/23,Final Project Milestone 1,,,,assignments/final-project
-7,4/12/23,Multiple regression,MD Ch 6.1-6.2 or QSS 4.3.1-4.3.2,/materials/07_regression,,
-7,4/12/23,Interpreting regression,,/materials/07_regression,,
-7,4/12/23,Tutorial 7 (Regression),,,/assignments/tutorials,
-8,4/16/23,Final Project Milestone 2,,,,assignments/final-project
-8,4/19/23,Sampling and sampling distribution,MD Ch 7,/materials/08_sampling,,
-8,4/19/23,Problem Set 5 due,,,,/assignments/05_hw_regression
-9,4/26/23,Tutorial 8 (Bootstrapping),,,/assignments/tutorials,
-9,4/26/23,The bootstrap and confidence intervals,MD Ch 8/IMS Ch 12,/materials/09_bootstrap,,
-9,4/26/23,Problem Set 6 due,,,,/assignments/06_hw_sampling
-9,4/26/23,The bootstrap and confidence intervals,,/materials/09_bootstrap,,
-10,5/3/23,Hypothesis testing,MD Ch 9/IMS Ch 11,/materials/10_hyp_tests,,
-10,5/3/23,Problem Set 7 due,,,,/assignments/07_hw_bootstrap
-10,5/3/23,Hypothesis testing,,/materials/10_hyp_tests,,
-10,5/7/23,Final Project Milestone 3,,,,assignments/final-project
+7,4/26/23,Multiple regression,"MD Ch 6.1-6.2 or QSS 4.3.1-4.3.2, 4.4.1",/materials/07_regression,,
+7,4/26/23,Interpreting regression,,/materials/07_regression,,
+7,4/26/23,Tutorial 7 (Regression),,,/assignments/tutorials,
+8,4/30/23,Final Project Milestone 2,,,,assignments/final-project
+8,5/3/23,Heterogenous effects in Regression,QSS 4.4.2,,,
+8,5/3/23,Problem Set 5 due,,,,/assignments/05_hw_regression
+9,5/10/23,Tutorial 8 (Bootstrapping),,,/assignments/tutorials,
+9,5/10/23,Sampling and sampling distribution,MD Ch 7,/materials/08_sampling,,
+9,5/10/23,The bootstrap and confidence intervals,MD Ch 8/IMS Ch 12,/materials/09_bootstrap,,
+10,5/17/23,Hypothesis testing,MD Ch 9/IMS Ch 11,/materials/10_hyp_tests,,
+10,5/17/23,Problem Set 6 due,,,,/assignments/06_hw_sampling
+11,5/24/23,Final Project Milestone 3,,,,assignments/final-project
+11,5/24/23,Problem Set 7 due,,,,/assignments/07_hw_bootstrap
