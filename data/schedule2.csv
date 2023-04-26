@@ -23,11 +23,11 @@ week,date,title, reading,content,tutorial,assignment
 7,4/26/23,Interpreting regression,,/materials/07_regression,,
 7,4/26/23,Tutorial 7 (Regression),,,/assignments/tutorials,
 8,4/30/23,Final Project Milestone 2,,,,assignments/final-project
-8,5/3/23,Heterogenous effects in Regression,QSS 4.4.2,,,
+8,5/3/23,Heterogenous effects in Regression,QSS 4.4.2,/materials/08_HE_regression,,
 8,5/3/23,Problem Set 5 due,,,,/assignments/05_hw_regression
 9,5/10/23,Tutorial 8 (Bootstrapping),,,/assignments/tutorials,
-9,5/10/23,Sampling and sampling distribution,MD Ch 7,/materials/08_sampling,,
-9,5/10/23,The bootstrap and confidence intervals,MD Ch 8/IMS Ch 12,/materials/09_bootstrap,,
+9,5/10/23,Sampling and sampling distribution,MD Ch 7,/materials/09_sampling,,
+9,5/10/23,The bootstrap and confidence intervals,MD Ch 8/IMS Ch 12,/materials/09_sampling,,
 10,5/17/23,Hypothesis testing,MD Ch 9/IMS Ch 11,/materials/10_hyp_tests,,
 10,5/17/23,Problem Set 6 due,,,,/assignments/06_hw_sampling
 11,5/24/23,Final Project Milestone 3,,,,assignments/final-project

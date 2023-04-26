@@ -121,5 +121,14 @@
   },
   "assignments/03_hw_causality_legislature.qmd": {
     "03_hw_causality_legislature.html": "e8c3f24b"
+  },
+  "materials/08_HE_regression.qmd": {
+    "08_HE_regression.html": "c2039bc9"
+  },
+  "materials/09_sampling.qmd": {
+    "09_sampling.html": "27ac8177"
+  },
+  "materials/99_bootstrap.qmd": {
+    "99_bootstrap.html": "aebf5e36"
   }
 }
