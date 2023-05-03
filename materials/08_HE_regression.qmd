@@ -20,12 +20,15 @@ remotes::install_github("seungho-an/TPDdata")
 
 <!-- - CSV files for the data from this week if you cannot install the package: -->
 <!--   - [`midterms.csv`](/files/data/midterms.csv) -->
+- We will use the same transphobia data during class activities as we did in our previous class
+  - [`transphobia_all.csv`](/files/data/transphobia_all.csv)
 
-## Slides and Code
+## Slides 
 
-<!-- - Tuesday (10/18) lecture: Model fit and multiple regression -->
-<!--   - [PDF of slides as I present them](/slides/14_regression_ii.pdf) -->
-<!--   - [PDF of handout version of slides](/slides/14_regression_ii_handout.pdf) (no incremental slides) -->
+- Model fit and multiple regression
+
+  - [PDF slides](/slides/08_more_more_regression.pdf)
+  - [PDF handout version](/slides/08_more_more_regression_handout.pdf) (no incremental slides)
 
 <!-- - Thursday (10/20) lecture: Multiple regression and categorical independent variables -->
 <!--   - [PDF of slides as I present them](/slides/15_multiple_regression.pdf) -->
