@@ -20,8 +20,9 @@ remotes::install_github("seungho-an/TPDdata")
 
 <!-- - CSV files for the data from this week if you cannot install the package: -->
 <!--   - [`midterms.csv`](/files/data/midterms.csv) -->
-- We will use the same transphobia data during class activities as we did in our previous class
+- Data used during the class
   - [`transphobia_all.csv`](/files/data/transphobia_all.csv)
+  - [`social.csv`](/files/data/social.csv)
 
 ## Slides 
 
