@@ -26,7 +26,8 @@ remotes::install_github("seungho-an/TPDdata")
 
 ## Slides
 
-Sampling and bootstrapping
+- Sampling and bootstrapping
+
   - [PDF slides](/slides/09_sampling_bootstrapping.pdf)
   - [PDF handout version](/slides/09_sampling_bootstrapping_handout.pdf) (no incremental slides)
 
