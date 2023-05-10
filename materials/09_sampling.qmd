@@ -1,6 +1,6 @@
 ---
 title: "Sampling and Confidence Interval"
-date: 2023-04-19
+date: 2023-05-10
 ---
 
 
@@ -11,8 +11,6 @@ date: 2023-04-19
 
 
 - MD Ch 8, IMS Ch 12 for another take (confidence interval) 
-
-
 
 
 ## Data
@@ -26,11 +24,14 @@ remotes::install_github("seungho-an/TPDdata")
 <!-- - CSV files for the data from this week if you cannot install the package: -->
 <!--   - [`class_years.csv`](/files/data/class_years.csv) -->
 
-## Slides and Code
+## Slides
+
+Sampling and bootstrapping
+  - [PDF slides](/slides/09_sampling_bootstrapping.pdf)
+  - [PDF handout version](/slides/09_sampling_bootstrapping_handout.pdf) (no incremental slides)
 
 <!-- - Tuesday (10/25) lecture: Sampling -->
-<!--   - [PDF of slides as I present them](/slides/16_sampling.pdf) -->
-<!--   - [PDF of handout version of slides](/slides/16_sampling_handout.pdf) (no incremental slides) -->
+
 
 <!-- - Thursday (10/27) lecture: Sampling distributions -->
 <!--   - [PDF of slides as I present them](/slides/17_sampling_dist.pdf) -->
