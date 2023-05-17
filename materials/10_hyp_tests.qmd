@@ -1,6 +1,6 @@
 ---
 title: "Hypothesis Tests"
-date: 2023-05-03
+date: 2023-05-17
 ---
 
 
@@ -23,9 +23,10 @@ remotes::install_github("seungho-an/TPDdata")
 
 ## Slides and Code
 
-<!-- - Tuesday (11/8) lecture: Hypothesis tests -->
-<!--   - [PDF of slides as I present them](/slides/20_hyp_tests.pdf) -->
-<!--   - [PDF of handout version of slides](/slides/20_hyp_tests_handout.pdf) (no incremental slides) -->
+- Hypothesis testing
+
+  - [PDF slides](/slides/10_hypothesis_testing.pdf)
+  - [PDF handout version](/slides/10_hypothesis_testing_handout.pdf) (no incremental slides)
 
 <!-- - Thursday (11/11) lecture: More hypothesis tests -->
 <!--   - [PDF of slides as I present them](/slides/21_hyp_tests_diff.pdf) -->
